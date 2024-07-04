@@ -17,6 +17,7 @@ import Testimonials from '../components/Testimonials.js';
 import Cta from '../components/Cta.js';
 import Footer from '../components/Footer.js';
 import { useEffect } from "react";
+import Card2 from '@/components/Card2.js';
 
 export default function Home() {
 
@@ -40,7 +41,8 @@ export default function Home() {
       <Product />
       <Pricing />
       <Testimonials />
-      <Cta />
+      {/* <Card2/> */}
+      {/* <Cta /> */}
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>

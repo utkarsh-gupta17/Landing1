@@ -29,7 +29,7 @@ const ClientSlider = ({clients}) => {
           const { message, image, name, position, borderColor } = client;
 
           return <SwiperSlide key={index} style={{borderColor:borderColor }} className='border-t-[10px] rounded-t-[12px]'>
-            <div className="w-full mx-auto lg:max-w-[300px] xl:max-w-[350px] h-[250px] rounded-[12px] border border-grey py-6 px-[30px]">
+            <div className="w-full mx-auto lg:max-w-[300px] xl:max-w-[350px] h-[260px] rounded-[12px] border border-grey py-6 px-[30px]">
               <div className='mb-[30px]'>{message}</div>
               <div className='flex gap-x-[10px]'>
                 <Image src={image}/>

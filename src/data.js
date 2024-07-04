@@ -1,5 +1,5 @@
 // import images
-import LogoImg from './assets/img/header/logo.svg';
+import LogoImg from './assets/img/header/logo.webp';
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import OverviewProductImg from './assets/img/overview/product.svg';
 import FacebookImg from './assets/img/overview/brands/facebook.svg';
@@ -14,6 +14,11 @@ import ArrowRightImg from './assets/img/features/arrow-right.svg';
 import CardIconImg1 from './assets/img/product/cards/icon1.svg';
 import CardIconImg2 from './assets/img/product/cards/icon2.svg';
 import CardIconImg3 from './assets/img/product/cards/icon3.svg';
+import Webd from './assets/img/product/cards/webd.webp';
+import Webd2 from './assets/img/product/cards/webd2.webp';
+import DAA from './assets/img/product/cards/dataAnalysis.webp';
+import SEO from './assets/img/product/cards/SEO.webp';
+import AI from './assets/img/product/cards/ai.webp';
 import PricingIcon1 from './assets/img/pricing/icon1.svg';
 import PricingIcon2 from './assets/img/pricing/icon2.svg';
 import PricingIcon3 from './assets/img/pricing/icon3.svg';
@@ -24,9 +29,10 @@ import AvatarImg4 from './assets/img/testimonial/avatar4.png';
 import AvatarImg5 from './assets/img/testimonial/avatar5.png';
 import CtaImg1 from './assets/img/cta/image1.svg';
 import CtaImg2 from './assets/img/cta/image2.svg';
-import FacebookIcon from './assets/img/copyright/facebook.svg';
-import TwitterIcon from './assets/img/copyright/twitter.svg';
-import LinkedinIcon from './assets/img/copyright/linkedin.svg';
+import FacebookIcon from './assets/img/copyright/facebook8.svg';
+import TwitterIcon from './assets/img/copyright/twitterx8.svg';
+import LinkedinIcon from './assets/img/copyright/linkedin8.svg';
+import InstagramIcon from './assets/img/copyright/instagram8.svg';
 
 
 export const header = {
@@ -35,10 +41,10 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Features', href: '/' },
+  // { name: 'Features', href: '/' },
+  { name: 'Services', href: '/' },
   { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Feedback', href: '/' },
+  { name: 'Contact Us', href: '/' },
 ];
 
 
@@ -70,28 +76,28 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Alwalys online',
-    title: 'Real-time support with cloud',
+    pretitle: 'Always online',
+    title: 'Web Design & Development Process',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'For clients seeking dynamic, high performance websites, our MERN stack development services offers the cutting edge in web technology. Combining MongoDB, Next.js, React, and Node.js, we deliver responsive, fast-loading, and scalable web applications perfect for complex, data-driven websites and applications.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
-    title: 'Save cost for you and family',
+    pretitle: 'Level Up Online Presence',
+    title: 'SEO/ SMM Marketing',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'For clients aiming to elevate their digital presence, our comprehensive SEO and SMM services provide the ultimate edge in online visibility and engagement. Leveraging advanced strategies and the latest tools, we enhance your search rankings, amplify your social media presence, and drive meaningful interactions with your target audience.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
-    title: 'Use anytime when you need',
+    pretitle: 'Power of Data',
+    title: 'Business/ Data Analysis',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Data is at the heart of informed decision making. Our data and business analysis services transform raw data into strategic insights. Utilizing the latest in analytics technology, we provide comprehensive reports, predictive analytics, and actionable recommendations. Whether optimizing operations, exploring new market opportunities, or understanding customerbehavior, our analysis informs and empowers businesses to act with confidence.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
@@ -99,21 +105,44 @@ export const features = {
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'Our Services',
   subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+    'Discover the Range of Services We Offer',
   cards: [
     {
-      icon: CardIconImg1,
-      title: 'Cross platform',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      icon: Webd,
+      // icon: CardIconImg1,
+      title: 'Web Development',
+      subtitle: 'Transforming your ideas into interactive and responsive web applications. Let us build your digital presence with cutting edge technology.',
       delay: 200,
     },
     {
-      icon: CardIconImg2,
-      title: 'Cloud server',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      icon: Webd2,
+      // icon: CardIconImg2,
+      title: 'Web Design',
+      subtitle: 'Crafting visually stunning and user-friendly designs that captivate and engage your audience. Your brand deserves the best.',
       delay: 400,
+    },
+    {
+      icon: DAA,
+      // icon: CardIconImg3,
+      title: 'Business /Data analysis',
+      subtitle: 'Unlock the power of your data with our expert analysis. Make informed decisions and drive business growth through insightful analytics.',
+      delay: 600,
+    },
+    {
+      icon: SEO,
+      // icon: CardIconImg3,
+      title: 'SEO / SMM',
+      subtitle: 'Elevate your online visibility and connect with your audience. Our SEO and SMM strategies ensure you stand out in a crowded digital landscape.',
+      delay: 600,
+    },
+    {
+      icon: AI,
+      // icon: CardIconImg3,
+      title: 'AI Automations',
+      subtitle: 'Automate your processes with advanced AI solutions. Increase efficiency and reduce costs with intelligent automation tailored to your needs.',
+      delay: 600,
     },
     {
       icon: CardIconImg3,
@@ -228,16 +257,18 @@ export const footer = {
   links: [
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
+    { name: 'Services', href: '/' },
+    { name: 'Contact Us', href: '/' },
+    // { name: 'Features', href: '/' },
+    // { name: 'Blog', href: '/' },
   ],
-  legal: [
-    { name: 'Terms of use', href: '/' },
-    { name: 'Terms of conditions', href: '/' },
-    { name: 'Privacy policy', href: '/' },
-    { name: 'Cookie policy', href: '/' },
+  categories: [
+    { name: 'Branding', href: '/' },
+    { name: 'Web Design', href: '/' },
+    { name: 'Marketing', href: '/' },
+    { name: 'Copywriting', href: '/' },
+    { name: 'Videography', href: '/' },
+    { name: 'Animation', href: '/' },
   ],
   newsletter: {
     title: 'Newsletter',
@@ -259,10 +290,11 @@ export const copyright = {
     name: 'Contact us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright © 2024 SYSTROCODE. All Rights Reserved.',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },
     { icon: LinkedinIcon, href: '/' },
+    { icon: InstagramIcon, href: '/' },
   ],
 };

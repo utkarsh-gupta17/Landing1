@@ -18,7 +18,7 @@ const Pricing = () => {
               const { icon, title, services, price, userAmount, btnText, delay } = card;
 
               return <div key={cardIndex} data-aos='fade-up' data-aos-delay={delay} data-aos-offset='300'>
-                <div onClick={()=>setIndex(cardIndex)} className={`${cardIndex===index ? 'bg-white shadow-2xl' : 'border border-grey' } hover:shadow-xl w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all`}>
+                <div onClick={()=>setIndex(cardIndex)} className={`${cardIndex===index ? 'bg-white shadow-2xl' : 'border border-grey' } hover:shadow-xl w-[300px] h-[500px] lg:w-[350px] rounded-[12px] p-[40px] cursor-pointer transition-all`}>
                   <div className='mb-8'>
                     <Image src={icon}/>
                   </div>
