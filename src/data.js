@@ -42,9 +42,9 @@ export const header = {
 
 export const nav = [
   // { name: 'Features', href: '/' },
-  { name: 'Services', href: '/' },
-  { name: 'About us', href: '/' },
-  { name: 'Contact Us', href: '/' },
+  { name: 'Services', href: '/services' },
+  { name: 'About us', href: '/about' },
+  { name: 'Contact Us', href: '/contact' },
 ];
 
 
@@ -256,9 +256,9 @@ export const footer = {
   logo: LogoImg,
   links: [
     { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Services', href: '/' },
-    { name: 'Contact Us', href: '/' },
+    { name: 'About us', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Contact Us', href: '/contact' },
     // { name: 'Features', href: '/' },
     // { name: 'Blog', href: '/' },
   ],

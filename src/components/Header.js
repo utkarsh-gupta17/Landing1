@@ -23,7 +23,7 @@ const Header = () => {
   return( 
     <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`} >
       <div className="container mx-auto flex justify-between items-center">
-        <Link href='#' data-aos='fade-down' data-aos-delay='1000'>
+        <Link href='/' data-aos='fade-down' data-aos-delay='1000'>
           <Image src={logo} width='60' height='60'></Image>
         </Link>
         <div className="hidden lg:flex" data-aos='fade-down' data-aos-delay='1200'>
