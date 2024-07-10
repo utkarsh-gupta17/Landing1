@@ -9,24 +9,10 @@ const Copyright = () => {
 
   return(
     <div className='text-center' data-aos='fade-up' data-aos-offset='0' data-aos-delay='200'>
-      {/* <div className='flex gap-x-6'>
-        <Link className='hover:text-accent transition' href={link1.href}>{link1.name}</Link>
-        <Link className='hover:text-accent transition' href={link2.href}>{link2.name}</Link>
-      </div>     */}
-      <div className='text-center text-sm lg:text-lg'>{copyText}</div>    
-      {/* <ul className='flex gap-x-[12px]'>
-        {
-          social.map((item,index)=>{
-            const { href, icon } = item;
-            return (
-              <li key={index}>
-                <Link href={href}/>
-                <Image src={icon}/>
-              </li>
-            )
-          })
-        }
-      </ul>    */}
+      <div className='flex-col lg:flex lg:flex-row lg:justify-between'>
+        <Link className='hover:text-accent transition text-sm lg:text-lg' href={link1.href}>{link1.name}</Link>
+        <p className='transition text-sm lg:text-lg'>{copyText}</p>
+      </div>    
     </div>
   );
 };

@@ -1,3 +1,4 @@
+"use client";
 import {useState,useEffect} from 'react';
 import { header } from '@/data';
 import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi';
@@ -30,7 +31,7 @@ const Header = () => {
           <Nav/>
         </div>
         <button className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</button>
-        <button className='lg:hidden' onClick={ () => setMobileNav(!mobileNav) } >
+        <button className='lg:hidden' onClick={ () => setMobileNav(!mobileNav) } data-aos='fade-down' data-aos-delay='1000'>
           {mobileNav ? (
             <HiOutlineX className='text-3xl text-accent'/>
           ) : (

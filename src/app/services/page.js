@@ -18,6 +18,7 @@ import Testimonials from '@/components/Testimonials.js';
 // import Cta from '../components/Cta.js';
 import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
+import { hero } from '@/data';
 // import Card2 from '@/components/Card2.js';
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
   return (
     <div className='overflow-hidden w-full'>
       <Header />
-      <Hero />
+      <Hero data={hero.services}/>
       <Overview />
       <Brands />
       <Feature1 />

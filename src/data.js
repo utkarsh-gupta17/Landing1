@@ -1,6 +1,8 @@
 // import images
 import LogoImg from './assets/img/header/logo.webp';
 // import LogoImg from '../src/assets/img/header/logo.svg';
+import MainImg from '../src/assets/img/hero/image.svg';
+import ServiceImg from '../src/assets/img/Services/hero.png';
 import OverviewProductImg from './assets/img/overview/product.svg';
 import FacebookImg from './assets/img/overview/brands/facebook.svg';
 import GoogleImg from './assets/img/overview/brands/google.svg';
@@ -11,9 +13,6 @@ import Feature1Img from './assets/img/features/feature1-img.svg';
 import Feature2Img from './assets/img/features/feature2-img.svg';
 import Feature3Img from './assets/img/features/feature3-img.svg';
 import ArrowRightImg from './assets/img/features/arrow-right.svg';
-import CardIconImg1 from './assets/img/product/cards/icon1.svg';
-import CardIconImg2 from './assets/img/product/cards/icon2.svg';
-import CardIconImg3 from './assets/img/product/cards/icon3.svg';
 import Webd from './assets/img/product/cards/webd.webp';
 import Webd2 from './assets/img/product/cards/webd2.webp';
 import DAA from './assets/img/product/cards/dataAnalysis.webp';
@@ -39,6 +38,23 @@ export const header = {
   logo: LogoImg,
   btnText: 'Request a demo',
 };
+
+export const hero = {
+  main :{
+    title: 'Bringing Your Ideas To Life',
+    subtitle: 'Are you ready to take your brand to the next level? Our creative agency is here to help. Let us bring your vision to life with our innovative ideas and exceptional results.',
+    btnText: 'Request Project',
+    side: '— SystroCode',
+    image: MainImg,
+  },
+  services :{
+    title: 'Unlocking Your  Imagination for creating your brand',
+    subtitle: 'Are you ready to take your brand to the next level? Our creative company is here to help. Let us bring your vision to life with our innovative ideas and exceptional results.',
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: ServiceImg,    
+  }
+}
 
 export const nav = [
   // { name: 'Features', href: '/' },
@@ -144,12 +160,12 @@ export const product = {
       subtitle: 'Automate your processes with advanced AI solutions. Increase efficiency and reduce costs with intelligent automation tailored to your needs.',
       delay: 600,
     },
-    {
-      icon: CardIconImg3,
-      title: 'Pure Javascript',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 600,
-    },
+    // {
+    //   icon: CardIconImg3,
+    //   title: 'Pure Javascript',
+    //   subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+    //   delay: 600,
+    // },
   ],
 };
 
@@ -283,8 +299,8 @@ export const footer = {
 
 export const copyright = {
   link1: {
-    name: 'Privacy & Terms',
-    href: '/',
+    name: 'Privacy Policy',
+    href: '/policy',
   },
   link2: {
     name: 'Contact us',

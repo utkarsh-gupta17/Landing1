@@ -43,7 +43,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       {/* <Card2/> */}
-      {/* <Cta /> */}
+      <Cta />
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>

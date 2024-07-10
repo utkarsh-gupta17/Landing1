@@ -18,6 +18,9 @@ import Cta from '../components/Cta.js';
 import Footer from '../components/Footer.js';
 import { useEffect } from "react";
 import Card2 from '@/components/Card2.js';
+import ScrollSide from '@/components/ScrollSide.js';
+import { hero } from '@/data.js';
+import { Georama } from 'next/font/google/index.js';
 
 export default function Home() {
 
@@ -32,7 +35,7 @@ export default function Home() {
   return (
     <div className='overflow-hidden w-full'>
       <Header />
-      <Hero />
+      <Hero data={hero.main}/>
       <Overview />
       <Brands />
       <Feature1 />
@@ -42,7 +45,8 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       {/* <Card2/> */}
-      {/* <Cta /> */}
+      <Cta/>
+      {/* <ScrollSide/> */}
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>

@@ -30,7 +30,8 @@ module.exports = {
         grey: '#F5F5F5',
       },
       backgroundImage: {
-        overview: "url('/src/assets/img/overview/bg.svg')",
+        overview: "url('/src/assets/img/cta/bg.svg')",
+        // overview: "url('/src/assets/img/overview/bg.svg')",
         cta: "url('/src/assets/img/cta/bg.svg')",
       },
     },
