@@ -13,11 +13,12 @@ import Feature1Img from './assets/img/features/feature1-img.svg';
 import Feature2Img from './assets/img/features/feature2-img.svg';
 import Feature3Img from './assets/img/features/feature3-img.svg';
 import ArrowRightImg from './assets/img/features/arrow-right.svg';
-import Webd from './assets/img/product/cards/webd.webp';
-import Webd2 from './assets/img/product/cards/webd2.webp';
-import DAA from './assets/img/product/cards/dataAnalysis.webp';
-import SEO from './assets/img/product/cards/SEO.webp';
-import AI from './assets/img/product/cards/ai.webp';
+import Webd from './assets/img/product/cards/webd.gif';
+import Webd2 from './assets/img/product/cards/design.gif';
+import DAA from './assets/img/product/cards/da.gif';
+import SEO from './assets/img/product/cards/seo.gif';
+import AI from './assets/img/product/cards/ai.gif';
+import cybersecurity from './assets/img/product/cards/cybersecurity.gif';
 import PricingIcon1 from './assets/img/pricing/icon1.svg';
 import PricingIcon2 from './assets/img/pricing/icon2.svg';
 import PricingIcon3 from './assets/img/pricing/icon3.svg';
@@ -36,7 +37,7 @@ import InstagramIcon from './assets/img/copyright/instagram8.svg';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Get A Quote',
 };
 
 export const hero = {
@@ -155,17 +156,16 @@ export const product = {
     },
     {
       icon: AI,
-      // icon: CardIconImg3,
       title: 'AI Automations',
       subtitle: 'Automate your processes with advanced AI solutions. Increase efficiency and reduce costs with intelligent automation tailored to your needs.',
       delay: 600,
     },
-    // {
-    //   icon: CardIconImg3,
-    //   title: 'Pure Javascript',
-    //   subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-    //   delay: 600,
-    // },
+    {
+      icon: cybersecurity,
+      title: 'CyberSecurity',
+      subtitle: 'Safeguarding your digital world with cutting-edge cybersecurity solutions.',
+      delay: 600,
+    },
   ],
 };
 
@@ -219,44 +219,44 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        "Working with Systrocode has been a game-changer for our business. Their expertise in web development and SEO has significantly improved our online presence, driving more traffic to our site than ever before. The team is professional, responsive, and truly understands our vision. We couldn't be happier with the results!",
       image: AvatarImg1,
-      name: 'Cameron Williamson',
+      name: 'Sarah',
       position: 'CEO',
       borderColor: '#FF7235',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'We partnered with Systrocode for a complete website overhaul, and the outcome was outstanding. Their innovative design and seamless user experience have received rave reviews from our customers. Moreover, their continuous support and optimization efforts have ensured our site remains at the top of search engine results. A fantastic team to work with!',
       image: AvatarImg2,
-      name: 'Shirley Hand',
+      name: 'Jessi Singh',
       position: 'CEO',
       borderColor: '#FFBE21',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      "Systrocode's comprehensive digital marketing services have been instrumental in our company's growth. From SEO to social media management, their strategic approach has delivered impressive results across all fronts. Their professionalism and commitment to excellence make them a valued partner in our digital journey.",
       image: AvatarImg3,
-      name: 'Dr. Olivia Hansen',
+      name: 'Ramesh Choudhary',
       position: 'CEO',
       borderColor: '#4756DF',
-    },
+    },  
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        "Systrocode's social media marketing strategies have transformed our brand's online engagement. Their creative and data-driven approach has not only increased our followers but also boosted our sales. The level of dedication and personalized service they offer is unmatched. Highly recommended!",
       image: AvatarImg4,
-      name: 'Aubrey Sanford',
+      name: 'Rajesh Mishra',
       position: 'CEO',
       borderColor: '#3EC1F3',
     },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg5,
-      name: 'Terri Conroy',
-      position: 'CEO',
-      borderColor: '#BB7259',
-    },
+    // {
+    //   message:
+    //     'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+    //   image: AvatarImg5,
+    //   name: 'Terri Conroy',
+    //   position: 'CEO',
+    //   borderColor: '#BB7259',
+    // },
   ],
 };
 
@@ -314,3 +314,28 @@ export const copyright = {
     { icon: InstagramIcon, href: '/' },
   ],
 };
+
+export const privacy = {
+  r1: [
+    {
+      rule: 'Information We Collect',
+      subrule: {
+        title: 'Personal Information:',
+        subtitle: 'We collect personal information when you voluntarily submit it to us. This includes your name, email address, phone number, and location data (city, state, country, zip code or pin code). You may provide us this information when you use our services or contact us directly.',
+      },
+    },
+    {
+      rule: 'Usage Data',
+      subrule: {
+        title: 'Personal Information:',
+        subtitle: "We collect data about how our services are accessed and used. This Usage Data may include information such as your computers Internet Protocol address (IP address), browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.",
+      },
+    },
+  ],
+  r2: [
+    {
+      rule: ' Use of Information',
+      subrule: '',
+    }
+  ]
+}
