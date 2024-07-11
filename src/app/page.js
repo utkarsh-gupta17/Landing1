@@ -17,10 +17,8 @@ import Testimonials from '../components/Testimonials.js';
 import Cta from '../components/Cta.js';
 import Footer from '../components/Footer.js';
 import { useEffect } from "react";
-import Card2 from '@/components/Card2.js';
 import ScrollSide from '@/components/ScrollSide.js';
 import { hero } from '@/data.js';
-import { Georama } from 'next/font/google/index.js';
 
 export default function Home() {
 

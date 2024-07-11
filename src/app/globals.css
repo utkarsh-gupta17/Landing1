@@ -16,13 +16,13 @@
   }
   .title,
   .section-title {
-    @apply text-5xl lg:text-7xl mb-6 font-bold;
+    @apply text-4xl lg:text-7xl mb-6 font-bold;
   }
   .subbtitle {
     @apply text-4xl lg:text-6xl mb-6 font-bold;
   }
   .h2 {
-    @apply text-5xl lg:text-7xl font-bold;
+    @apply text-4xl lg:text-7xl font-bold;
   }
   .pretitle {
     @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;

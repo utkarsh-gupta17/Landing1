@@ -309,9 +309,9 @@ export const copyright = {
   copyText: 'Copyright © 2024 SYSTROCODE. All Rights Reserved.',
   social: [
     { icon: FacebookIcon, href: '/' },
-    { icon: TwitterIcon, href: '/' },
-    { icon: LinkedinIcon, href: '/' },
-    { icon: InstagramIcon, href: '/' },
+    { icon: TwitterIcon, href: 'https://x.com/systrocode' },
+    { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/systrocode/' },
+    { icon: InstagramIcon, href: 'https://www.instagram.com/systrocode/' },
   ],
 };
 
