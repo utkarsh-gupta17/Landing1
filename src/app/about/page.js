@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className='overflow-hidden w-full'>
       <Header />
-      <Hero data={hero.main}/>
+      <Hero data={hero.about}/>
       <Overview />
       <Brands />
       <Feature1 />

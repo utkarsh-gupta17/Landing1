@@ -3,6 +3,8 @@ import LogoImg from './assets/img/header/logo.webp';
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import MainImg from '../src/assets/img/hero/image.svg';
 import ServiceImg from '../src/assets/img/Services/hero.png';
+import ContactImg from '../src/assets/img/Contact/hero.png';
+import AboutImg from '../src/assets/img/About/hero.png';
 import OverviewProductImg from './assets/img/overview/product.svg';
 import FacebookImg from './assets/img/overview/brands/facebook.svg';
 import GoogleImg from './assets/img/overview/brands/google.svg';
@@ -54,7 +56,21 @@ export const hero = {
     btnText: 'Get A Free Quote',
     side: '— SystroCode',
     image: ServiceImg,    
-  }
+  },
+  contact :{
+    title: 'Get In Touch',
+    subtitle: 'Reach out to us for assistance, inquiries, or feedback—our team is here to help!',
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: ContactImg,
+  },
+  about :{
+    title: 'About Systrocode',
+    subtitle: 'Welcome to Systrocode, your gateway to digital excellence. Specializing in web development, digital marketing, data analysis, and Python automation, we empower businesses to thrive in the digital era. Our innovative solutions, tailored strategies, and expert team set the foundation for your online success.',
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: AboutImg,
+  },
 }
 
 export const nav = [
@@ -314,28 +330,3 @@ export const copyright = {
     { icon: InstagramIcon, href: 'https://www.instagram.com/systrocode/' },
   ],
 };
-
-export const privacy = {
-  r1: [
-    {
-      rule: 'Information We Collect',
-      subrule: {
-        title: 'Personal Information:',
-        subtitle: 'We collect personal information when you voluntarily submit it to us. This includes your name, email address, phone number, and location data (city, state, country, zip code or pin code). You may provide us this information when you use our services or contact us directly.',
-      },
-    },
-    {
-      rule: 'Usage Data',
-      subrule: {
-        title: 'Personal Information:',
-        subtitle: "We collect data about how our services are accessed and used. This Usage Data may include information such as your computers Internet Protocol address (IP address), browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.",
-      },
-    },
-  ],
-  r2: [
-    {
-      rule: ' Use of Information',
-      subrule: '',
-    }
-  ]
-}

@@ -34,13 +34,8 @@ export default function Home() {
   return (
     <div className='overflow-hidden w-full'>
       <Header />
-      <Hero data={hero.main}/>
+      <Hero data={hero.contact}/>
       <Overview />
-      <Brands />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
-      <Product />
       <Pricing />
       <Testimonials />
       {/* <Card2/> */}
