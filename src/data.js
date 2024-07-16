@@ -71,6 +71,48 @@ export const hero = {
     side: '— SystroCode',
     image: AboutImg,
   },
+  webd :{
+    title: 'Web Development',
+    subtitle: "Welcome to SYSTROCODE, your premier web development partner. We specialize in creating stunning, responsive websites tailored to boost your online presence and drive business growth. Let's build your digital success together.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: Webd,
+  },
+  webdesign :{
+    title: 'Web Design',
+    subtitle: "Welcome to SYSTROCODE, your premier web development partner. We specialize in creating stunning, responsive websites tailored to boost your online presence and drive business growth. Let's build your digital success together.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: Webd2,
+  },
+  dataAnalysis :{
+    title: 'Data Analysis',
+    subtitle: "Welcome to SYSTROCODE, your trusted data analysis partner. We transform complex data into actionable insights, driving informed decisions and business growth. Unlock the power of your data with us.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: DAA,
+  },
+  seo :{
+    title: 'SEO',
+    subtitle: "Welcome to SYSTROCODE, your SEO experts. We optimize your online presence, boost search rankings, and drive organic traffic to grow your business. Achieve top search results with our proven strategies.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: SEO,
+  },
+  ai :{
+    title: 'AI Automation',
+    subtitle: "Welcome to SYSTROCODE, your AI automation partner. We streamline operations with cutting-edge AI solutions, enhancing efficiency and productivity. Experience the future of automation with our innovative technologies.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: AI,
+  },
+  cybersecurity :{
+    title: 'Cyber Security',
+    subtitle: "Welcome to SYSTROCODE, your cybersecurity partner. We safeguard your digital assets with advanced security solutions, ensuring protection against cyber threats. Trust us to keep your business secure and resilient.",
+    btnText: 'Get A Free Quote',
+    side: '— SystroCode',
+    image: cybersecurity,
+  }
 }
 
 export const nav = [
@@ -231,7 +273,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'Testimonials',
   clients: [
     {
       message:

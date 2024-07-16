@@ -50,17 +50,6 @@ const Footer = () => {
               }
             </ul>
           </div>
-          {/* NewsLetter */}
-          {/* <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='900'>
-            <div className='text-2xl uppercase font-medium mb-6'>{newsletter.title}</div>
-            <div className='text-xl text-light mb-[18px]'>{newsletter.subtitle}</div>
-            <form className='max-w-[349px] mb-[10px]'>
-              <div className='h-[62px] p-[7px] flex border border-dark rounded-lg'>
-                <input className='w-full h-full pl-6 border-none outline-none placeholder:text-dark' type="text" placeholder={form.placeholder}/>
-                <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>{form.btnText}</button>
-              </div>
-            </form>
-          </div> */}
           {/* Socials */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='900'>
             <div className='text-2xl uppercase font-medium mb-6'>Socials</div>
@@ -70,8 +59,9 @@ const Footer = () => {
                   const { href, icon } = item;
                   return (
                     <li key={index}>
-                      <Link href={href}/>
-                      <Image src={icon} width='35' height='35'/>
+                      <Link href={href}>
+                        <Image src={icon} width='35' height='35'/>
+                      </Link>
                     </li>
                   )
                 })
