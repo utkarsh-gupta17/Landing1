@@ -8,15 +8,17 @@ import { useState } from 'react';
 
 const Form = () => {
   const [state, handleSubmit, reset] = useForm("xrbzborb");
-  const [attempts, setAttempts] = useState(0);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [msg, setMsg] = useState('');
+  const [submitted, setSubmitted] = useState(false);
   if (state.succeeded) {
-    return (
-        <div className='w-1/2 mx-auto flex flex-col items-center justify-center space-y-3'>
-            setAttempts(attempts+1);
-            <p>Thanks for filling the Form, We'll get back to you soon!</p>
-            <button onClick={reset} className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4 w-full'>Reset</button>
-        </div>
-    );
+    setSubmitted(true);
+    setName('');
+    setEmail('');
+    setMsg('');
+    reset();
+
 }
 
 
@@ -63,20 +65,21 @@ const Form = () => {
           <form onSubmit={handleSubmit}>
             <div className='w-full flex flex-col my-4'>
               <label htmlFor="name" className='font-bold text-gray-800'>Name:</label>
-              <input type="text" name='name' required id="name" placeholder='Your Name' className='p-4 bg-gray-50 border border-gray-100 rounded-xl'/>
+              <input type="text" name='name' value={name} required id="name" placeholder='Your Name' className='p-4 bg-gray-50 border border-gray-100 rounded-xl' onChange={(e)=>setName(e.target.value)}/>
               <ValidationError prefix="Name" field="name" errors={state.errors}/>
             </div>
             <div className='w-full flex flex-col my-4'>
               <label htmlFor="email" className='font-bold text-gray-800'>Email:</label>
-              <input type="email" required id="email" name="email" placeholder='Your email' className='p-4 bg-gray-50 border border-gray-100 rounded-xl'/>
+              <input type="email" required id="email" name="email" value={email} placeholder='Your email' className='p-4 bg-gray-50 border border-gray-100 rounded-xl' onChange={(e)=>setEmail(e.target.value)}/>
               <ValidationError prefix="Email" field="email" errors={state.errors}/>
             </div>
             <div className='w-full flex flex-col my-4'>
               <label htmlFor="message" className='font-bold text-gray-800'>Message:</label>
-              <textarea name="message" required id="message" placeholder='Your Message' className='p-4 bg-gray-50 border border-gray-100 rounded-xl'></textarea>
+              <textarea name="message" value={msg} required id="message" placeholder='Your Message' className='p-4 bg-gray-50 border border-gray-100 rounded-xl' onChange={(e)=>setMsg(e.target.value)}></textarea>
               <ValidationError prefix="Message" field="message" errors={state.errors}/>
             </div>
             <button type="submit" disabled={state.submitting} className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4 w-full'>Submit</button>
+            {submitted && <p className='mt-4'>Thanks for Submitting, We'll get back to you soon!</p>}
           </form>
         </div>
       </div>
