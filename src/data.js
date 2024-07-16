@@ -309,7 +309,7 @@ export const footer = {
   form: {
     placeholder: 'Enter your email',
     btnText: 'Subscribe',
-    smallText: 'We don’t sell your email and spam',
+    smallText: "We don't sell your email and spam",
   },
 };
 
@@ -324,7 +324,7 @@ export const copyright = {
   },
   copyText: 'Copyright © 2024 SYSTROCODE. All Rights Reserved.',
   social: [
-    { icon: FacebookIcon, href: '/' },
+    { icon: FacebookIcon, href: 'https://facebook.com/people/Systrocode/61553616951262' },
     { icon: TwitterIcon, href: 'https://x.com/systrocode' },
     { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/systrocode/' },
     { icon: InstagramIcon, href: 'https://www.instagram.com/systrocode/' },

@@ -19,6 +19,7 @@ import Cta from '@/components/Cta.js';
 import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
 import { hero } from '@/data';
+import Form from '@/components/Form';
 // import Card2 from '@/components/Card2.js';
 
 export default function Home() {
@@ -35,10 +36,10 @@ export default function Home() {
     <div className='overflow-hidden w-full'>
       <Header />
       <Hero data={hero.contact}/>
-      <Overview />
+      <Form/>
+      {/* <Overview /> */}
       <Pricing />
       <Testimonials />
-      {/* <Card2/> */}
       <Cta />
       <Footer />
       {/* <div className='h-[4000px]'></div> */}

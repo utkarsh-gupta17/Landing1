@@ -30,7 +30,7 @@ const Header = () => {
         <div className="hidden lg:flex" data-aos='fade-down' data-aos-delay='1200'>
           <Nav/>
         </div>
-        <button className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</button>
+        <Link href='https://api.whatsapp.com/send/?phone=9672040456&text&type=phone_number&app_absent=0' className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</Link>
         <button className='lg:hidden' onClick={ () => setMobileNav(!mobileNav) } data-aos='fade-down' data-aos-delay='1000'>
           {mobileNav ? (
             <HiOutlineX className='text-3xl text-accent'/>

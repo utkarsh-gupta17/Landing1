@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@ionic/react": "^8.2.5",
     "aos": "^2.3.4",
     "gsap": "^3.12.5",
     "next": "14.2.4",
