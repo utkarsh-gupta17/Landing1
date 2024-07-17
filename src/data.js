@@ -6,11 +6,6 @@ import ServiceImg from '../src/assets/img/Services/hero.png';
 import ContactImg from '../src/assets/img/Contact/hero.png';
 import AboutImg from '../src/assets/img/About/hero.png';
 import OverviewProductImg from './assets/img/overview/product.svg';
-import FacebookImg from './assets/img/overview/brands/facebook.svg';
-import GoogleImg from './assets/img/overview/brands/google.svg';
-import CocaColaImg from './assets/img/overview/brands/coca-cola.svg';
-import LinkedInImg from './assets/img/overview/brands/linkedin.svg';
-import SamsungImg from './assets/img/overview/brands/samsung.svg';
 import Feature1Img from './assets/img/features/feature1-img.svg';
 import Feature2Img from './assets/img/features/feature2-img.svg';
 import Feature3Img from './assets/img/features/feature3-img.svg';
@@ -28,7 +23,6 @@ import AvatarImg1 from './assets/img/testimonial/avatar1.png';
 import AvatarImg2 from './assets/img/testimonial/avatar2.png';
 import AvatarImg3 from './assets/img/testimonial/avatar3.png';
 import AvatarImg4 from './assets/img/testimonial/avatar4.png';
-import AvatarImg5 from './assets/img/testimonial/avatar5.png';
 import CtaImg1 from './assets/img/cta/image1.svg';
 import CtaImg2 from './assets/img/cta/image2.svg';
 import FacebookIcon from './assets/img/copyright/facebook8.svg';
@@ -125,28 +119,6 @@ export const nav = [
 
 export const overview = {
   productImg: OverviewProductImg,
-  brands: [
-    {
-      image: FacebookImg,
-      delay: 300,
-    },
-    {
-      image: GoogleImg,
-      delay: 400,
-    },
-    {
-      image: CocaColaImg,
-      delay: 500,
-    },
-    {
-      image: LinkedInImg,
-      delay: 600,
-    },
-    {
-      image: SamsungImg,
-      delay: 700,
-    },
-  ],
 };
 
 export const features = {

@@ -12,12 +12,10 @@ import Feature1 from '../components/Feature1.js';
 import Feature2 from '../components/Feature2.js';
 import Feature3 from '../components/Feature3.js';
 import Product from '../components/Product.js';
-import Pricing from '../components/Pricing.js';
 import Testimonials from '../components/Testimonials.js';
 import Cta from '../components/Cta.js';
 import Footer from '../components/Footer.js';
 import { useEffect } from "react";
-import ScrollSide from '@/components/ScrollSide.js';
 import { hero } from '@/data.js';
 import { NavbarMT } from '@/components/NavbarMT.js';
 
@@ -42,7 +40,6 @@ export default function Home() {
       <Feature2 />
       <Feature3 />
       <Product />
-      <Pricing />
       <Testimonials />
       {/* <Card2/> */}
       <Cta/>

@@ -1,5 +1,6 @@
 import {HiOutlineChevronDown} from 'react-icons/hi';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = ({data}) => {
 
@@ -14,10 +15,12 @@ const Hero = ({data}) => {
             <h1 className="title mb-2 lg:mb-5" data-aos='fade-down' data-aos-delay='500'>{title}</h1>
             <p className="lead mb-5 lg:mb-10" data-aos='fade-down' data-aos-delay='600'>{subtitle}</p>
             <div className='flex items-center max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6' data-aos='fade-down' data-aos-delay='700'>
-              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
-              {btnText}
-                <HiOutlineChevronDown/>
-              </button>
+              <Link href='https://wa.me/message/WGWDL3DUG4T7K1'>
+                <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
+                {btnText}
+                  <HiOutlineChevronDown/>
+                </button>
+              </Link>
               <span className='text-light lg:lead lg:mb-0'>{side}</span>
             </div>
           </div>
