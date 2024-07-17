@@ -41,9 +41,7 @@ export default function Home() {
       <Feature3 />
       <Product />
       <Testimonials />
-      {/* <Card2/> */}
       <Cta/>
-      {/* <ScrollSide/> */}
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>

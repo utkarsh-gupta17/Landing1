@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className='flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-between gap-y-8'>
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='300'>
-            <Image src={logo} width='60' height='60'/> 
+            <Image src={logo} width='100' height='100'/> 
             {/* <h1 className='text-sm font-semibold'>Empowering</h1> */}
           </div>
           {/* List 1 */}

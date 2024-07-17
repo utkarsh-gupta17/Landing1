@@ -315,12 +315,12 @@ export const footer = {
     // { name: 'Blog', href: '/' },
   ],
   categories: [
-    { name: 'Branding', href: '/' },
-    { name: 'Web Design', href: '/' },
-    { name: 'Marketing', href: '/' },
-    { name: 'Copywriting', href: '/' },
-    { name: 'Videography', href: '/' },
-    { name: 'Animation', href: '/' },
+    { name: 'Web Development', href: '/web-development' },
+    { name: 'Web Design', href: '/web-design' },
+    { name: 'SEO', href: '/seo' },
+    { name: 'Data Analysis', href: '/data-analysis' },
+    { name: 'AI Automation', href: '/ai-automation' },
+    { name: 'Cyber Security', href: '/cyber-security' },
   ],
   newsletter: {
     title: 'Newsletter',
