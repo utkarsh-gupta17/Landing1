@@ -198,7 +198,7 @@ export function NavbarMT() {
 
  
   return (
-    <div className={`${isActive ? 'lg:top-0 bg-transparent' : 'lg:top-[20px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}>
+    <div className={`${isActive ? 'lg:top-0 bg-transparent' : 'lg:top-[1rem]'} py-6 lg:py-4 fixed w-full transition-all z-10`}>
       <Navbar className="mx-auto w-full px-8 py-4" data-aos='fade-down' data-aos-delay='1000'>
         <div className="flex items-center justify-between text-blue-gray-900 border-none">
         <Link href='/' data-aos='fade-down' data-aos-delay='1300'>
@@ -208,7 +208,7 @@ export function NavbarMT() {
             <NavList />
           </div>
           <div className="hidden gap-2 lg:flex">
-            <Link href='https://api.whatsapp.com/message/WGWDL3DUG4T7K1?autoload=1&app_absent=0' data-aos='fade-down' data-aos-delay='1500'>
+            <Link href='https://wa.me/message/WGWDL3DUG4T7K1' data-aos='fade-down' data-aos-delay='1500'>
               <Button variant="text" size="lg" className='bg-accent text-white link text-lg border-none'>
                 {btnText}
               </Button>
@@ -233,7 +233,7 @@ export function NavbarMT() {
         <Collapse open={openNav}>
           <NavList />
           <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Link href='https://api.whatsapp.com/message/WGWDL3DUG4T7K1?autoload=1&app_absent=0' className='w-full'>
+          <Link href='https://wa.me/message/WGWDL3DUG4T7K1' className='w-full'>
               <Button variant="outlined" size="md" fullWidth className='bg-accent text-white border-none'>
                 {btnText}
               </Button>
