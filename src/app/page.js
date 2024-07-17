@@ -19,6 +19,7 @@ import Footer from '../components/Footer.js';
 import { useEffect } from "react";
 import ScrollSide from '@/components/ScrollSide.js';
 import { hero } from '@/data.js';
+import { NavbarMT } from '@/components/NavbarMT.js';
 
 export default function Home() {
 
@@ -32,7 +33,8 @@ export default function Home() {
 
   return (
     <div className='overflow-hidden w-full'>
-      <Header />
+      {/* <Header /> */}
+      <NavbarMT/>
       <Hero data={hero.main}/>
       <Overview />
       <Brands />

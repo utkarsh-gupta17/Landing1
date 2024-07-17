@@ -6,7 +6,7 @@ const Hero = ({data}) => {
   const { title, subtitle, btnText, side, image } = data;
 
   return(
-    <section className='min-h-[900px] py-4'>
+    <section className='min-h-[900px] py-4 mt-8 lg:mt-2'>
       <div className="container mx-auto min-h-[900px] flex justify-center items-center">
         <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left mt-14 lg:mt-2">
           {/* text */}

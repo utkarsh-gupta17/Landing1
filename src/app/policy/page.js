@@ -10,6 +10,7 @@ import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
 import PrivacyHero from '@/components/PrivacyHero';
 import PrivacyTerms from '@/components/PrivacyTerms';
+import { NavbarMT } from '@/components/NavbarMT';
 // import Card2 from '@/components/Card2.js';
 
 export default function Home() {
@@ -24,7 +25,8 @@ export default function Home() {
 
   return (
     <div className='overflow-hidden w-full'>
-      <Header />
+      {/* <Header /> */}
+      <NavbarMT/>
       <PrivacyHero/>
       <PrivacyTerms/>
       <Cta />

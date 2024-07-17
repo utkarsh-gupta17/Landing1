@@ -10,8 +10,8 @@ import Image from 'next/image';
 const Header = () => {
 
   const [mobileNav, setMobileNav] = useState(false);
-  const [isActive, setIsActive] = useState(false);
   const { logo,btnText } = header;
+  const [isActive, setIsActive] = useState(false);
 
   // scroll event
   useEffect(() => {
@@ -22,7 +22,7 @@ const Header = () => {
   
 
   return( 
-    <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`} >
+    <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}>
       <div className="container mx-auto flex justify-between items-center">
         <Link href='/' data-aos='fade-down' data-aos-delay='1000'>
           <Image src={logo} width='60' height='60'></Image>
@@ -30,7 +30,7 @@ const Header = () => {
         <div className="hidden lg:flex" data-aos='fade-down' data-aos-delay='1200'>
           <Nav/>
         </div>
-        <Link href='https://api.whatsapp.com/send/?phone=9672040456&text&type=phone_number&app_absent=0' className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</Link>
+        <Link href='https://api.whatsapp.com/message/WGWDL3DUG4T7K1?autoload=1&app_absent=0' className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</Link>
         <button className='lg:hidden' onClick={ () => setMobileNav(!mobileNav) } data-aos='fade-down' data-aos-delay='1000'>
           {mobileNav ? (
             <HiOutlineX className='text-3xl text-accent'/>

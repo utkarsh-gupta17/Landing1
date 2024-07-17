@@ -51,7 +51,7 @@ export const hero = {
     image: MainImg,
   },
   services :{
-    title: 'Unlocking Your  Imagination for creating your brand',
+    title: 'Unlocking Your Imagination',
     subtitle: 'Are you ready to take your brand to the next level? Our creative company is here to help. Let us bring your vision to life with our innovative ideas and exceptional results.',
     btnText: 'Get A Free Quote',
     side: '— SystroCode',
@@ -186,6 +186,7 @@ export const product = {
   cards: [
     {
       icon: Webd,
+      link: '/web-development',
       // icon: CardIconImg1,
       title: 'Web Development',
       subtitle: 'Transforming your ideas into interactive and responsive web applications. Let us build your digital presence with cutting edge technology.',
@@ -193,6 +194,7 @@ export const product = {
     },
     {
       icon: Webd2,
+      link: '/web-design',
       // icon: CardIconImg2,
       title: 'Web Design',
       subtitle: 'Crafting visually stunning and user-friendly designs that captivate and engage your audience. Your brand deserves the best.',
@@ -200,6 +202,7 @@ export const product = {
     },
     {
       icon: DAA,
+      link: '/data-analysis',
       // icon: CardIconImg3,
       title: 'Business /Data analysis',
       subtitle: 'Unlock the power of your data with our expert analysis. Make informed decisions and drive business growth through insightful analytics.',
@@ -207,6 +210,7 @@ export const product = {
     },
     {
       icon: SEO,
+      link: '/seo',
       // icon: CardIconImg3,
       title: 'SEO / SMM',
       subtitle: 'Elevate your online visibility and connect with your audience. Our SEO and SMM strategies ensure you stand out in a crowded digital landscape.',
@@ -214,13 +218,15 @@ export const product = {
     },
     {
       icon: AI,
+      link: '/ai-automation',
       title: 'AI Automations',
       subtitle: 'Automate your processes with advanced AI solutions. Increase efficiency and reduce costs with intelligent automation tailored to your needs.',
       delay: 600,
     },
     {
       icon: cybersecurity,
-      title: 'CyberSecurity',
+      link: '/cyber-security',
+      title: 'Cyber Security',
       subtitle: 'Safeguarding your digital world with cutting-edge cybersecurity solutions.',
       delay: 600,
     },

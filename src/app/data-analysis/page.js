@@ -18,6 +18,7 @@ import Cta from '@/components/Cta.js';
 import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
 import { hero } from '@/data.js';
+import { NavbarMT } from '@/components/NavbarMT';
 
 export default function Home() {
 
@@ -31,7 +32,8 @@ export default function Home() {
 
   return (
     <div className='overflow-hidden w-full'>
-      <Header />
+      {/* <Header /> */}
+      <NavbarMT/>
       <Hero data={hero.dataAnalysis}/>
       <Overview />
       <Brands />

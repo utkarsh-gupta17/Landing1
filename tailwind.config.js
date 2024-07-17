@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -31,11 +33,10 @@ module.exports = {
       },
       backgroundImage: {
         overview: "url('/src/assets/img/cta/bg.svg')",
-        // overview: "url('/src/assets/img/overview/bg.svg')",
         cta: "url('/src/assets/img/cta/bg.svg')",
       },
     },
   },
   plugins: [],
-};
+});
 
