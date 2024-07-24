@@ -33,6 +33,10 @@ import Webdev1 from './assets/img/Services/webd1.jpg';
 import Webdev2 from './assets/img/Services/webd2.jpg';
 import Webdev3 from './assets/img/Services/webd3.jpg';
 import Webdesign from './assets/img/Services/webdesign.jpg';
+import seoi from './assets/img/Services/seo.jpg';
+import aiautomation from './assets/img/Services/ai.jpg';
+import dataanaly from './assets/img/Services/data.jpg';
+import cyber from './assets/img/Services/cyber.jpg';
 
 
 export const header = {
@@ -195,6 +199,56 @@ export const webdesign = {
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Webdesign,
+  },
+};
+
+export const seo1 = {
+  feature1: {
+    pretitle: 'Dominate search results with our expert SEO services!',
+    title: 'SEO',
+    subtitle:
+      'Unlock the potential of superior SEO strategies with Systrocode. Our dedicated team of experts excels in crafting tailored SEO solutions that enhance your digital visibility and drive organic traffic. From comprehensive keyword analysis to on-page optimization, we transform your vision into measurable results. Partner with us and elevate your project to new heights with our expertise and creativity in search engine optimization.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: seoi,
+  },
+};
+
+
+export const aiauto = {
+  feature1: {
+    pretitle: 'Streamline operations with our cutting-edge AI automation!',
+    title: 'AI Automation',
+    subtitle:
+      'Unlock the potential of AI automation with Systrocode. Our dedicated team of experts excels in developing innovative AI solutions that streamline your processes and enhance efficiency. From intelligent data analysis to automated workflows, we transform your vision into reality. Partner with us and elevate your project to new heights with our expertise and creativity in AI automation.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: aiautomation,
+  },
+};
+
+
+export const dataanalysisi = {
+  feature1: {
+    pretitle: 'Unlock insights and drive decisions with our data analysis expertise!',
+    title: 'Data Analysis',
+    subtitle:
+      'Unlock the potential of advanced data analysis with Systrocode. Our dedicated team of experts excels in delivering insightful data solutions that drive informed decision-making and strategic growth. From comprehensive data mining to predictive analytics, we transform your raw data into actionable intelligence. Partner with us and elevate your project to new heights with our expertise and creativity in data analysis.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: dataanaly,
+  },
+};
+
+export const cyberSec = {
+  feature1: {
+    pretitle: 'Protect your assets with our top-notch cybersecurity solutions!',
+    title: 'Cyber Security',
+    subtitle:
+      'Unlock the potential of robust cybersecurity with Systrocode. Our dedicated team of experts excels in crafting comprehensive security solutions that protect your digital assets and ensure your peace of mind. From advanced threat detection to proactive risk management, we fortify your systems against cyber threats. Partner with us and elevate your project to new heights with our expertise and creativity in cybersecurity.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: cyber,
   },
 };
 
