@@ -8,14 +8,12 @@ import Header from '@/components/Header.js';
 import Hero from '@/components/Hero.js';
 import Brands from '@/components/Brands.js';
 import Feature1 from '@/components/Feature1.js';
-import Feature2 from '@/components/Feature2.js';
-import Feature3 from '@/components/Feature3.js';
 import Product from '@/components/Product.js';
 import Testimonials from '@/components/Testimonials.js';
 import Cta from '@/components/Cta.js';
 import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
-import { hero } from '@/data.js';
+import { features, hero, webdesign } from '@/data.js';
 import { NavbarMT } from '@/components/NavbarMT';
 
 export default function Home() {
@@ -34,9 +32,7 @@ export default function Home() {
       <NavbarMT/>
       <Hero data={hero.webdesign}/>
       <Brands />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
+      <Feature1 actual = {webdesign} />
       <Product />
       <Testimonials />
       <Cta/>

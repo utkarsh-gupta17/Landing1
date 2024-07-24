@@ -29,6 +29,10 @@ import FacebookIcon from './assets/img/copyright/facebook8.svg';
 import TwitterIcon from './assets/img/copyright/twitterx8.svg';
 import LinkedinIcon from './assets/img/copyright/linkedin8.svg';
 import InstagramIcon from './assets/img/copyright/instagram8.svg';
+import Webdev1 from './assets/img/Services/webd1.jpg';
+import Webdev2 from './assets/img/Services/webd2.jpg';
+import Webdev3 from './assets/img/Services/webd3.jpg';
+import Webdesign from './assets/img/Services/webdesign.jpg';
 
 
 export const header = {
@@ -150,6 +154,50 @@ export const features = {
     image: Feature3Img,
   },
 };
+
+export const webdevelopment = {
+  feature1: {
+    pretitle: 'Boost sales with our dynamic e-commerce solutions!',
+    title: 'E-commerce Website',
+    subtitle:
+      'At Systrocode, we transform your e-commerce vision into a thriving online reality with cutting-edge solutions that propel digital success. Our adept team of professionals excels in crafting visually captivating and user-centric e-commerce websites that harmonize flawlessly with your brand identity and objectives. Whether you require a streamlined online store or a sophisticated e-commerce platform, we possess the expertise and ingenuity to bring your project to fruition. Partner with us to elevate your online presence with a bespoke e-commerce solution that distinguishes itself in the competitive digital arena.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: Webdev1,
+  },
+  feature2: {
+    pretitle: 'Transform your brand with custom WordPress sites!',
+    title: 'Wordpress Website',
+    subtitle:
+      "At Systrocode, we excel in WordPress development, turning your online vision into a dynamic reality. Our proficient team of experts harnesses the robust capabilities of WordPress to craft visually stunning websites that seamlessly integrate with your brand and objectives. Whether you envision a sleek blog or a multifaceted e-commerce platform, we have the expertise and creativity to bring your project to life. Partner with us on your next WordPress endeavor, and let's illuminate your online presence with exceptional design and functionality.",
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: Webdev2,
+  },
+  feature3: {
+    pretitle: 'Achieve excellence with our full-stack web development!',
+    title: 'Full-Stack Website',
+    subtitle:
+      'Unlock the potential of full-stack technology with Systrocode. Our dedicated team of professionals excels in crafting innovative projects that leverage the power of full-stack development to enhance your digital presence. From seamless integrations to state-of-the-art solutions, we transform your vision into reality. Partner with us and elevate your project to new heights with our expertise and creativity in full-stack development.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: Webdev3,
+  },
+};
+
+
+export const webdesign = {
+  feature1: {
+    pretitle: 'Captivate your audience with stunning web design!',
+    title: 'Web Design',
+    subtitle:
+      'Unlock the potential of exceptional web design with Systrocode. Our dedicated team of professionals excels in creating visually stunning and user-centric designs that elevate your digital presence. From intuitive navigation to captivating aesthetics, we transform your vision into a compelling online experience. Partner with us and elevate your project to new heights with our expertise and creativity in web design.',
+    btnLink: 'Learn more',
+    btnIcon: ArrowRightImg,
+    image: Webdesign,
+  },
+};
+
 
 export const product = {
   title: 'Our Services',

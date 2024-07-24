@@ -16,7 +16,7 @@ import Testimonials from '../components/Testimonials.js';
 import Cta from '../components/Cta.js';
 import Footer from '../components/Footer.js';
 import { useEffect } from "react";
-import { hero } from '@/data.js';
+import { features, hero } from '@/data.js';
 import { NavbarMT } from '@/components/NavbarMT.js';
 
 export default function Home() {
@@ -36,9 +36,9 @@ export default function Home() {
       <Hero data={hero.main}/>
       <Overview />
       <Brands />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
+      <Feature1 actual = {features} />
+      <Feature2 actual = {features} />
+      <Feature3 actual = {features} />
       <Product />
       <Testimonials />
       <Cta/>
