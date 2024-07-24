@@ -20,6 +20,7 @@ import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
 import { features, hero } from '@/data';
 import { NavbarMT } from '@/components/NavbarMT';
+import { OurWork } from '@/components/OurWork';
 // import Card2 from '@/components/Card2.js';
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <Feature3 actual = {features} />
       <Product />
       <Pricing />
+      <OurWork/>
       <Testimonials />
       {/* <Card2/> */}
       <Cta />

@@ -18,6 +18,7 @@ import Footer from '../components/Footer.js';
 import { useEffect } from "react";
 import { features, hero } from '@/data.js';
 import { NavbarMT } from '@/components/NavbarMT.js';
+import { OurWork } from '@/components/OurWork.js';
 
 export default function Home() {
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Feature2 actual = {features} />
       <Feature3 actual = {features} />
       <Product />
+      <OurWork />
       <Testimonials />
       <Cta/>
       <Footer />

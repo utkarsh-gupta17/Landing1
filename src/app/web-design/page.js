@@ -15,6 +15,7 @@ import Footer from '@/components/Footer.js';
 import { useEffect } from "react";
 import { features, hero, webdesign } from '@/data.js';
 import { NavbarMT } from '@/components/NavbarMT';
+import { OurWork } from '@/components/OurWork';
 
 export default function Home() {
 
@@ -34,6 +35,7 @@ export default function Home() {
       <Brands />
       <Feature1 actual = {webdesign} />
       <Product />
+      <OurWork/>
       <Testimonials />
       <Cta/>
       <Footer />

@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { hero } from '@/data';
 import { NavbarMT } from '@/components/NavbarMT';
 import Brands from '@/components/Brands';
+import { OurWork } from '@/components/OurWork';
 
 export default function Home() {
 
@@ -34,6 +35,7 @@ export default function Home() {
       <Overview />
       <Brands/>
       <Product />
+      <OurWork/>
       <Testimonials />
       <Cta />
       <Footer />

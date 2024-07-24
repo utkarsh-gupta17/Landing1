@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { hero } from '@/data';
 import Form from '@/components/Form';
 import { NavbarMT } from '@/components/NavbarMT';
+import { OurWork } from '@/components/OurWork';
 // import Card2 from '@/components/Card2.js';
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
       <Form/>
       {/* <Overview /> */}
       <Brands/>
+      <OurWork/>
       <Testimonials />
       <Cta />
       <Footer />
