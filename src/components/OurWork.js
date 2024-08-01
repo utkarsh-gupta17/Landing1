@@ -124,7 +124,7 @@ export function OurWork() {
                 color="white"
                 className="mb-4 text-3xl md:text-4xl lg:text-5xl"
               >
-                Tooth Dental
+                Tooth Fairy
               </Typography>
               <div className="flex justify-center gap-2">
               <Link href='https://toothfairypediatricdental.com/'>
