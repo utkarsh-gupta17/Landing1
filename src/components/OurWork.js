@@ -1,5 +1,9 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import Link from "next/link";
+// import cyber from './assets/img/Services/cyber.jpg';
+import dental from '../assets/img/Privacy/image.png';
+import Image from "next/image";
+
  
 export function OurWork() {
   return (
@@ -98,6 +102,32 @@ export function OurWork() {
               </Typography>
               <div className="flex justify-center gap-2">
               <Link href='https://vishnujeweller.com/'>
+                  <Button size="lg" color="white">
+                    Explore
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative h-full w-full">
+          <Image src={dental} className='h-full w-full object-cover' alt='image 4'/>
+          {/* <img
+            src="../assets/img/Privacy/image.png"
+            alt="image 4"
+            className="h-full w-full object-cover"
+          /> */}
+          <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="w-3/4 text-center md:w-2/4">
+              <Typography
+                variant="h1"
+                color="white"
+                className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              >
+                Tooth Dental
+              </Typography>
+              <div className="flex justify-center gap-2">
+              <Link href='https://toothfairypediatricdental.com/'>
                   <Button size="lg" color="white">
                     Explore
                   </Button>
