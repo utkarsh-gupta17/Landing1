@@ -27,8 +27,10 @@ module.exports = withMT({
       colors: {
         dark: '#292830',
         light: '#BDBDBD',
-        accent: '#FF7235',
-        accentHover: '#e05216',
+        // accent: '#FF7235',
+        accent: '#4C4C6E',
+        // accentHover: '#e05216',
+        accentHover: '#4C4C6E',
         grey: '#F5F5F5',
       },
       backgroundImage: {
